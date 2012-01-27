@@ -1,6 +1,8 @@
-#Boilerplate
+# Boilerplate
 
-##app.js
+  This is a boiler plate which helps to you to layout your code base. 
+
+## app.js
 
    Apps: Evey folder is considered as a app, which is resuable. I can just copy my app to any project and it should just work.
   
@@ -9,14 +11,14 @@
        Adding every app is all about copying it to the PROJECT_ROOT and adding it to the INSTALLED_APPS array.
 
 
-##Conf/
+## Conf/
 
    -- settings.js   
 
         It adds environemnt related settings.
 
 
-##hello
+## hello
 
    -- hello is a sample applicaiton.
 
@@ -31,4 +33,4 @@
 
 ## Installation
 
-$ npm install
+   $ npm install
