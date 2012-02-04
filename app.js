@@ -8,9 +8,9 @@ app = module.exports = express.createServer();
 
 // Import URL dispatcher
  
-// INSTALLED_APPS.forEach(function(i){
-//     require(i + "/urls.js")(app);
-// });
+INSTALLED_APPS.forEach(function(i){
+    require(i + "/urls.js")(app);
+});
 
 // Import settings
 
