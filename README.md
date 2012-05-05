@@ -1,4 +1,4 @@
-# Boilerplate
+# ExpressJS 3.x Boilerplate
 
   This is a boiler plate which helps to you to layout your code base. 
 
