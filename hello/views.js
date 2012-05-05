@@ -1,6 +1,6 @@
 exports.hello = function(req, res, next){
-    console.log("Hello world");
+    conole.log('Hello World');
     res.render('hello/index.jade',
-               {layout: false, locals: { title: 'Express' }})
+               { title: 'Express' })
 }
 
