@@ -8,6 +8,8 @@ var app = module.exports = express();
 
 app.configure(function(){
     app.set('port', process.env.PORT || 3000);
+    app.use(express.bodyParser());
+    app.use(express.methodOverride());
     app.set('view engine', 'jade');
     app.set("views", path.join(PROJDIR, "templates"));
     app.use(express.favicon());
@@ -17,8 +19,6 @@ app.configure(function(){
     app.get(/\/js/, express.static(path.join(static,'js')));
     app.get(/\/css/, express.static(path.join(static,'css')));
     app.get(/\/images/, express.static(path.join(static,'images')));
-    app.use(express.bodyParser());
-    app.use(express.methodOverride());
 });
 
 app.configure('development', function(){
